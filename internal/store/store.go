@@ -42,7 +42,6 @@ func NewStore(dbPath string) (*Store, error) {
 	return &Store{DB: db}, nil
 }
 
-// CRUD Functions -
 // CreateProduct inserts a new product row and returns the auto-generated ID.
 // It relies on SQLite's INTEGER PRIMARY KEY to assign the id (no manual increments).
 func (s *Store) CreateProduct(p *models.Product) (int64, error) {
