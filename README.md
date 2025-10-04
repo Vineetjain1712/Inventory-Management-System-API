@@ -6,6 +6,7 @@ Cleanly layered (`handlers → service → store`), Docker-ready, and designed f
 ---
 
 **Repo:** [https://github.com/Vineetjain1712/Inventory-Management-System-API.git](https://github.com/Vineetjain1712/Inventory-Management-System-API.git)
+
 **Docker image:** `vineetjaindev/inventory-api`
 
 ---
