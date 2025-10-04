@@ -1,0 +1,10 @@
+# local sqlite DB
+inventory.db
+
+# build artifacts
+inventory-api
+
+# OS/editor files
+.DS_Store
+.vscode/
+*.swp
